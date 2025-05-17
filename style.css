@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headercont{
+display: flex;
+justify-content: space-around;
+}
+
+.logo {
+    max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2 {
+      max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+
+.logo2{
+    max-width: 100vh;
+}
+.he1{
+    text-align: center;
+    color: rgb(241, 151, 5);
+    padding-top: 10px;
+    color: rgb(243, 76, 5);
+}
+.btnlog{
+    border-radius: 5px;
+    background-color: transparent;
+    border:1.5px solid rgb(16, 16, 16);
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+nav .containers{
+    display: flex;
+    background-color: rgb(3, 45, 3);
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+.anc{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.anc:hover,.btnlog:hover{
+    color: rgb(123, 80, 80);
+}
+ul,li {
+    list-style: none;
+}
+.bgimage{
+    background-image: url("itic.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.course {
+     padding: 30px;
+}
+
+
+.elect1,.elect2,.elect3,.elect4,.elect5 {
+     width: 30rem;
+    height: auto;
+    border-radius: 20%;
+    padding: 3rem;
+}
+.coursesimgdiv1,.coursesimgdiv2,.coursesimgdiv3,.coursesimgdiv4,.coursesimgdiv5 {
+    display: inline;
+    max-width: 1000px;
+    height: auto;
+    
+}
+.coursecon1,.coursecon2,.coursecon3,.coursecon4,.coursecon5,.allcoursecon{
+    text-align: center;
+}
+.coursecon1,.coursecon2,.coursecon3,.coursecon5{
+    border-radius: 15px;
+     /* border: 0.5px solid black;  */
+    box-shadow: 1px 0 10px rgba(0,0,0,0.7);
+    margin: 20px 20px ;
+
+}
+.para1,.para2,.para3,.para4,.para5,.course {
+    font-size: 2rem;
+}
+.list,.course {
+    font-size: 3rem;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    background-color: black;
+    color: whitesmoke;
+    height: 2rem;
+}
+.coursecon1,.coursecon2,.coursecon3,.coursecon4,.coursecon5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4 {
+     border-radius: 15px;
+    border: 1px solid black;
+    margin: 20px 20px ;
+
+}
+.texts1,.texts2,.texts3,.texts4,.texts5{
+    display: flex;
+    flex-direction: column;
+    padding:0% 10%;
+}
+.marq{
+    background-color: rgba(0, 255, 13, 0.9);
+    color: black;
+
+}

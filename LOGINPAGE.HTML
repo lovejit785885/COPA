@@ -1,0 +1,163 @@
+<html>
+<head>
+<style>
+	*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headercont{
+display: flex;
+justify-content: space-around;
+padding-bottom: 5px;
+}
+.logo {
+    max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2 {
+      max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2{
+    max-width: 100vh;
+}
+.he1{
+    text-align: center;
+    color: rgb(241, 151, 5);
+    padding-top: 10px;
+    color: rgb(5, 243, 76);
+}
+.btnlog{
+    border-radius: 5px;
+    background-color: transparent;
+    border:1.5px solid white;
+    color: aliceblue;
+    padding: 5px;
+}
+
+nav .containers{
+    display: flex;
+    background-color: rgb(3, 45, 3);
+    justify-content: space-between;
+    align-items: center;
+}
+.anc{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.anc:hover,.btnlog:hover{
+    color: rgb(123, 80, 80);
+}
+.lis {
+    list-style: none;
+}
+body	{
+	background-image:url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stywo-1054218.jpg&fm=jpg');
+                     width:100%;
+                     height:100%;
+                   background-size:cover;
+                  margin:0px;	
+}
+
+	#head{
+	              background-color:darkblue;
+	               color:white;
+	               padding:1px;
+	}
+
+#login{	 background:linear-gradient(250deg,  blue, darkblue);
+                    color:black;
+	width:300px;
+  	height:300px;
+ 	border-radius:30px;
+	box-shadow:0 0 10px black; 
+	margin-top:2cm;
+	
+	}
+
+.input1	{
+	 border-radius: 10px;
+                     border:1px solid white;
+                   
+	}
+	#login {
+		margin-left: 40%;
+	}
+	.fgp{
+		color: whitesmoke;
+	}
+	.input1{
+		margin-bottom: 10px;
+	}
+	.fgp2{
+		text-decoration: none;
+		color: azure;
+	}
+	.btn1{
+		border-radius: 15px;
+		background-color: transparent;
+		border: 1px solid white;
+		padding: 5px;
+	}
+
+</style>
+<script>
+	function display(){
+		var v=document.getElementByid("input1")
+		if(v==""){
+			 alert("plz enter somthing");
+			}
+                                       }
+</script>
+</head>
+<body>
+      <header class="header">
+  <div class="headercont">
+    <div class="logodiv cdiv"><img src="itilogo.png" class="logo"> </div>
+    <div class="mainheading"><h2 class="he1">INDUSTRAIL TRAINING INSTITUTE DHANBAD</h2></div>
+    <div class="logo2"> <img src="jlogo.webp" class="logo2"> </div>
+  </div>
+</header>
+  <nav class="navbar">
+  <div class="containers">
+
+          <li class="lis"><a href="index.html" class="anc">Home</a></li>
+          <li class="lis"><a href="about.html" class="anc">About ITI</a></li>
+          <li class="lis"><a href="" class="anc">Institute</a></li>
+          <li class="lis"><a href="" class="anc">Dashboard</a></li>
+          <li class="lis"><a href="" class="anc">Project</a></li>
+          <button onclick="location.href='LOGINPAGE.HTML'" class="btnlog">Login</button>
+    </div >
+
+  </nav>
+	<div ID="head">
+	        <center><h1 STYLE>Login Page</h1></center>
+	</div><br>
+
+
+
+  	<div id="login" name="log">
+ 
+                             <center><h1>Login</h1></center><BR>
+	
+	 <center>  <input name="inbox1" type="text" placeholder="username" id="input1" class="input1 inbox1 em"></center><br>
+	 <center><input name="inbox2" type="password"placeholder="password" class="input2 inbox2 ps" name="password"></center>
+	 <center><input type="checkbox" name="check" >Rember me</center><br>
+	<center><a href="#" class="fgp" > forget password ? </a></center><br>
+		<center><a href="SIGN UP.HTML" class="fgp2" > sign up </a></center><br>
+	<center><button  class="btn1 lbtn">Submit</button></center>
+	<center><p class="para"></p></center>
+	
+		
+	</div>
+    
+
+
+ <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

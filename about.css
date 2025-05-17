@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headercont{
+display: flex;
+justify-content: space-around;
+}
+.logo {
+    max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2 {
+      max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2{
+    max-width: 100vh;
+}
+.he1{
+    text-align: center;
+    color: rgb(241, 151, 5);
+    padding-top: 10px;
+    color: rgb(243, 76, 5);
+}
+.btnlog{
+    border-radius: 5px;
+    background-color: transparent;
+    border:1.5px solid white;
+    color: aliceblue;
+    padding: 5px;
+}
+
+nav .containers{
+    display: flex;
+    background-color: rgb(3, 45, 3);
+    justify-content: space-between;
+    align-items: center;
+}
+.anc{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.anc:hover,.btnlog:hover{
+    color: rgb(123, 80, 80);
+}
+.lis {
+    list-style: none;
+}
+.container1,.container2,.container3,.container4,.image1,.container5,.container6,.container7,.table1div{
+    padding: 20px 10%;
+     box-shadow: 1px 0 10px rgba(0,0,0,0.7);
+     margin: 15px 25px;
+     background-color: rgb(209, 22, 87);
+     color: aliceblue;
+}
+h1,li,p,img,table{
+    margin:10px;
+    padding: 0;
+}
+.img1{
+    width: 70vw;
+    height: auto;
+}
+.undertb{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin:0px 0px;
+    
+}
+.table{
+    border: 1.2px solid black;
+   border-collapse: collapse;
+   
+}
+tr,td{
+    padding: 20px 60px;
+}
+.commentbox{
+    margin: 5px 10% ;
+    max-height: 700px;
+    max-width: 700px;
+   
+}
+.textarea{
+    padding: 0px 500px 150px 0px;
+    margin: 5px 0px;
+}
+.cmbtn{
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-left: 600px;
+}
+.ftr{
+    text-align: center;
+    background-color: rgb(13, 4, 4);
+    color: aliceblue;
+    margin-top: 70px;
+}
+

@@ -1,0 +1,65 @@
+ body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 0; }
+    header { background-color: #333; color: white; padding: 10px 0; text-align: center; }
+    .container { width: 80%; margin: 20px auto; }
+    .iti-card { background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-bottom: 20px; padding: 20px; }
+    .iti-card h2 { color: #333; }
+    .iti-card p { color: #555; }
+    .iti-card a { color: #007BFF; text-decoration: none; }
+    .iti-card a:hover { text-decoration: underline; }
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headercont{
+display: flex;
+justify-content: space-around;
+}
+
+.logo {
+    max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.logo2 {
+      max-height: 150px;
+    height: 50px;
+    padding: 5px;
+}
+
+.logo2{
+    max-width: 100vh;
+}
+.he1{
+    text-align: center;
+    color: rgb(241, 151, 5);
+    padding-top: 10px;
+    color: rgb(243, 76, 5);
+}
+.btnlog{
+    border-radius: 5px;
+    background-color: transparent;
+    border:1.5px solid rgb(6, 6, 6);
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+nav .containers{
+    display: flex;
+    background-color: rgb(3, 45, 3);
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+.anc{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.anc:hover,.btnlog:hover{
+    color: rgb(123, 80, 80);
+}
+ul,li {
+    list-style: none;
+}
